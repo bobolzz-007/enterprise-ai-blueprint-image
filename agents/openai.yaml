@@ -1,0 +1,4 @@
+interface:
+  display_name: "Enterprise AI Blueprint Image"
+  short_description: "Generate grouped AI blueprint posters"
+  default_prompt: "Use $enterprise-ai-blueprint-image to generate a 16:9 AI digital transformation blueprint image for a company."
