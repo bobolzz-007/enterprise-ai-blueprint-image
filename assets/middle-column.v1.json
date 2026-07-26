@@ -1,0 +1,57 @@
+{
+  "version": "2.0",
+  "updated_on": "2026-07-27",
+  "policy": {
+    "fixed_groups": true,
+    "fixed_order_within_groups": true,
+    "allow_additions": false,
+    "allow_deletions": false,
+    "allow_renames": false,
+    "icon_fallback": "text-only",
+    "product_icon_generation": "forbidden"
+  },
+  "groups": [
+    {
+      "order": 1,
+      "name": "协同办公",
+      "mapping": "承接战略、经营与一线协作",
+      "modules": [
+        {"order":1,"display_name":"智能会议纪要","canonical_name":"智能会议纪要","icon":"assets/feishu-official-icons/ai-meeting-notes.png","mapping":"exact"},
+        {"order":2,"display_name":"即时消息","canonical_name":"即时消息","icon":"assets/feishu-official-icons/messenger.png","mapping":"exact"},
+        {"order":3,"display_name":"云文档","canonical_name":"文档","icon":"assets/feishu-official-icons/docs.png","mapping":"official-name-alias"},
+        {"order":4,"display_name":"视频会议","canonical_name":"视频会议","icon":"assets/feishu-official-icons/video-meeting.png","mapping":"exact"},
+        {"order":5,"display_name":"知识库","canonical_name":"知识库","icon":"assets/feishu-official-icons/wiki.png","mapping":"exact"},
+        {"order":6,"display_name":"审批","canonical_name":"飞书审批","icon":"assets/feishu-official-icons/approval.png","mapping":"explicit-capability-mapping"},
+        {"order":7,"display_name":"日历","canonical_name":"日历","icon":"assets/feishu-official-icons/calendar.png","mapping":"exact"},
+        {"order":8,"display_name":"邮箱","canonical_name":"邮箱","icon":"assets/feishu-official-icons/mail.png","mapping":"exact"},
+        {"order":9,"display_name":"任务","canonical_name":"任务","icon":"assets/feishu-official-icons/tasks.png","mapping":"exact"},
+        {"order":10,"display_name":"豆包企业版","canonical_name":"豆包企业版","icon":"assets/feishu-official-icons/doubao-enterprise.png","mapping":"user-confirmed"},
+        {"order":11,"display_name":"知识问答","canonical_name":"知识问答","icon":"assets/feishu-official-icons/knowledge-qa.png","mapping":"user-confirmed"}
+      ]
+    },
+    {
+      "order": 2,
+      "name": "业务 AI 应用",
+      "mapping": "承接企业核心业务价值链场景",
+      "modules": [
+        {"order":1,"display_name":"智能体","canonical_name":"飞书 aily","icon":"assets/feishu-official-icons/aily.png","mapping":"explicit-shared-product"},
+        {"order":2,"display_name":"aily专业版","canonical_name":"飞书 aily","icon":"assets/feishu-official-icons/aily.png","mapping":"explicit-shared-product"},
+        {"order":3,"display_name":"工作流","canonical_name":"飞书审批","icon":"assets/feishu-official-icons/approval.png","mapping":"explicit-capability-mapping"},
+        {"order":4,"display_name":"知识空间","canonical_name":"知识库","icon":"assets/feishu-official-icons/wiki.png","mapping":"official-name-alias"},
+        {"order":5,"display_name":"妙搭","canonical_name":"飞书妙搭","icon":"assets/feishu-official-icons/miaoda.png","mapping":"official-name-alias"},
+        {"order":6,"display_name":"多维表格","canonical_name":"多维表格","icon":"assets/feishu-official-icons/base.png","mapping":"exact"},
+        {"order":7,"display_name":"应用引擎","canonical_name":"飞书 aPaaS","icon":"assets/feishu-official-icons/apaas.png","mapping":"explicit-capability-mapping"},
+        {"order":8,"display_name":"飞书项目","canonical_name":"飞书项目","icon":"assets/feishu-official-icons/project.png","mapping":"exact"}
+      ]
+    },
+    {
+      "order": 3,
+      "name": "数据集成",
+      "mapping": "贯通企业核心系统与数据中心",
+      "modules": [
+        {"order":1,"display_name":"AnyCross","canonical_name":"飞书集成平台","icon":"assets/feishu-official-icons/integration-platform.png","mapping":"official-name-alias"},
+        {"order":2,"display_name":"开放平台","canonical_name":"飞书开发套件","icon":"assets/feishu-official-icons/developer-suite.png","mapping":"explicit-capability-mapping"}
+      ]
+    }
+  ]
+}

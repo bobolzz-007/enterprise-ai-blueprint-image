@@ -1,0 +1,294 @@
+{
+  "version": "2026-07-26",
+  "source": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+  "icons": [
+    {
+      "name": "即时消息",
+      "category": "协同办公",
+      "file": "messenger.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/E35hbKQ9goezMWxY1LzcViFZnQe~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "文档",
+      "category": "协同办公",
+      "file": "docs.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/YQFxbpjE5o53RAxpyf3csiHvnhJ~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "多维表格",
+      "category": "协同办公",
+      "file": "base.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/8c3baa42a1754490ac4f04bd883c63b2~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "视频会议",
+      "category": "协同办公",
+      "file": "video-meeting.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/X3SibR4hioUamvxuo8VckIC0nJA~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "知识问答",
+      "category": "协同办公",
+      "file": "knowledge-qa.png",
+      "source_url": "user-provided:codex-clipboard-8c3862de-ae2a-4fe3-8f9c-1257d208de89.png",
+      "source_page": "user-provided reference image",
+      "sha256": "85f5e43242f09a85f1508083522a18e29770712d7cd2b47169bbd9c7095aee56",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "智能会议纪要",
+      "category": "协同办公",
+      "file": "ai-meeting-notes.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/fb6c1fa772174f7b830deedce9c6ad43.png~tplv-jbbdkfciu3-png:0:0.png",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "妙记",
+      "category": "协同办公",
+      "file": "minutes.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/Pf5rblMrQoPMLWxS3Y4ctLYOnZg~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "日历",
+      "category": "协同办公",
+      "file": "calendar.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/JelobrB14oWOhexL1X2cBsKsn5d~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "会议室",
+      "category": "协同办公",
+      "file": "meeting-room.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/Rmz8buZbGoMhXzxFJKIcK5Iknzc~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "网络研讨会",
+      "category": "协同办公",
+      "file": "webinar.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/CJrpbxO6goSFQlx6iH0cnmpfnth~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "知识库",
+      "category": "协同办公",
+      "file": "wiki.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/KiFXbxUXboDOEcxIXMbcANh4n4f~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "词典",
+      "category": "协同办公",
+      "file": "dictionary.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/ZyKCbS2x6olGtCxNha4ch0W7nqg~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "云盘",
+      "category": "协同办公",
+      "file": "drive.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/ZxHQbHl51osPNXxLQHGcLNIRnQe~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "表格",
+      "category": "协同办公",
+      "file": "sheets.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/HCF0b1EFgo4mHJx6bvxcetDLnXc~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "幻灯片",
+      "category": "协同办公",
+      "file": "slides.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/ff1e6c582338470699937944f58524bc~tplv-jbbdkfciu3-png:0:0.png",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "思维笔记",
+      "category": "协同办公",
+      "file": "mind-notes.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/DV4IbY5Pxoz9cNxFxMscaO5JnNe~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "画板",
+      "category": "协同办公",
+      "file": "whiteboard.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/f47cad5f72ad4742b982a2d9208de05a~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "任务",
+      "category": "协同办公",
+      "file": "tasks.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/P5aebfbsyoSYUCxk2NwcoXG1nkf~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书OKR",
+      "category": "协同办公",
+      "file": "okr.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/RXcyb3NLdoIQTfxwSVgcu61lnyh~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "邮箱",
+      "category": "协同办公",
+      "file": "mail.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/ABwbbeuwpo4Q3FxCPrNcsgEsnWr~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "服务台",
+      "category": "协同办公",
+      "file": "helpdesk.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/DOGob4CMso5zLTxTzvxcc4J4nod~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "安全合规",
+      "category": "协同办公",
+      "file": "security.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/US8kbTq0Bo4nHQxQ3aAc8me1n5f~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "管理后台",
+      "category": "协同办公",
+      "file": "admin.png",
+      "source_url": "https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/bitable/UHlIb8AAKojKU4xOAPtcnEzInRh~tplv-jbbdkfciu3-image:0:0.image",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书开发套件",
+      "category": "业务工具",
+      "file": "developer-suite.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/ae0286754d0e482d9dc95c0f840dcd72",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书 aPaaS",
+      "category": "业务工具",
+      "file": "apaas.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/541ab0fc456d411f9c12886d2f6ae657",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书项目",
+      "category": "业务工具",
+      "file": "project.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/d17633a328d843bab732ef1a724c28bd",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书 aily",
+      "category": "业务工具",
+      "file": "aily.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/e300f933d5954b5799edcbfe5676c44e",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书集成平台",
+      "category": "业务工具",
+      "file": "integration-platform.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/TihFb80HCosGtQxzLkDctSYinTd",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书妙搭",
+      "category": "业务工具",
+      "file": "miaoda.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/8117acbac7bd4315bfc33cfdb6350494",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书审批",
+      "category": "业务工具",
+      "file": "approval.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/GRrOblcNrouKpJxkJsqcCKFynCM",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "机器人助手",
+      "category": "业务工具",
+      "file": "bot-assistant.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/Rk3lbJ2KGoLLFaxAOtzcNoD6nWb",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "定制工作台",
+      "category": "业务工具",
+      "file": "custom-workspace.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/ODTAba1WWo12YkxVCsScPiBXnge",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "飞书问卷",
+      "category": "业务工具",
+      "file": "survey.png",
+      "source_url": "https://p1-hera.feishucdn.com/verified-resource/AYkhbXoeGoslSFx1HyzchA3wnvh",
+      "source_page": "https://www.feishu.cn/ 顶部导航 > 产品功能",
+      "verified_on": "2026-07-26"
+    },
+    {
+      "name": "豆包企业版",
+      "category": "通用办公 Agent",
+      "file": "doubao-enterprise.png",
+      "capability": "通用办公 Agent 入口",
+      "source_url": "user-provided:codex-clipboard-030838df-d537-4a7e-af02-3a66496a1494.png",
+      "source_page": "user-provided reference image",
+      "sha256": "5dd1bf4bddb404e160fa53f7f67cf03059e5fed8c37503bfee8eb94a4b22ca4a",
+      "verified_on": "2026-07-27"
+    }
+  ],
+  "aliases": {
+    "消息": "即时消息",
+    "云文档": "文档",
+    "知识空间": "知识库",
+    "aily伙伴": "飞书 aily",
+    "aily专业版": "飞书 aily",
+    "智能体": "飞书 aily",
+    "妙搭": "飞书妙搭",
+    "AnyCross": "飞书集成平台",
+    "开放平台": "飞书开发套件",
+    "应用引擎": "飞书 aPaaS",
+    "工作流": "飞书审批"
+  }
+}

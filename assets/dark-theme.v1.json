@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "name": "blue-black-enterprise",
+  "default": true,
+  "colors": {
+    "canvas": "#050B18",
+    "canvas_gradient_end": "#081426",
+    "region": "#0A1628",
+    "panel": "#0F2038",
+    "panel_elevated": "#132A46",
+    "chip": "#11243D",
+    "border": "#254A73",
+    "border_subtle": "#193754",
+    "title": "#F7FAFF",
+    "text_primary": "#EAF2FF",
+    "text_secondary": "#B8C7DC",
+    "text_muted": "#8297B4",
+    "accent_blue": "#3370FF",
+    "accent_cyan": "#22D3C5",
+    "connector": "#3B82F6"
+  },
+  "tag_colors": {
+    "purple": "#C084FC",
+    "blue": "#60A5FA",
+    "green": "#34D399",
+    "orange": "#FB923C",
+    "amber": "#FBBF24",
+    "red": "#F87171"
+  },
+  "contrast": {
+    "normal_text_minimum": 4.5,
+    "large_text_minimum": 3.0
+  },
+  "logo": {
+    "file": "assets/feishu-logo-white.png",
+    "position": "top-right",
+    "minimum_width_px_at_1920": 120,
+    "maximum_width_px_at_1920": 170,
+    "clear_space_ratio": 0.35,
+    "sha256": "28b50728b16c18bf63f5bef4d9a8e97fe0e7aecb91a6e512ba44011247af04fc"
+  }
+}
