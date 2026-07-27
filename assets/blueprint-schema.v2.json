@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "canvas": {"logicalWidth": 1920, "logicalHeight": 1080, "scale": 2},
+  "limits": {
+    "companyName": 16,
+    "companyShortName": 10,
+    "panelTitle": 10,
+    "capability": 10,
+    "mappingLabel": 22
+  },
+  "leftMatrix": {
+    "strategy": {"panelCount": 2, "itemsPerPanel": 5},
+    "management": {"panelCount": 4, "itemsPerPanel": 5},
+    "business": {"panelCount": 5, "itemsPerPanel": 5},
+    "frontline": {"panelCount": 4, "itemsPerPanel": 5},
+    "totalCapabilities": 75
+  },
+  "middleColumn": {
+    "groupCount": 3,
+    "moduleCount": 21,
+    "source": "assets/middle-column.v1.json"
+  },
+  "endpoints": ["PC端", "移动端", "网页端", "iPad", "H5"]
+}

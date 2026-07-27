@@ -1,4 +1,4 @@
 interface:
   display_name: "Enterprise AI Blueprint Image"
-  short_description: "Generate grouped AI blueprint posters"
-  default_prompt: "Use $enterprise-ai-blueprint-image to generate a 16:9 AI digital transformation blueprint image for a company."
+  short_description: "Render validated 4K enterprise AI blueprints"
+  default_prompt: "Use $enterprise-ai-blueprint-image to research a company, generate schema-valid blueprint data, render it with the locked template, and deliver a validated 4K PNG."

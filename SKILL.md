@@ -55,6 +55,39 @@ Treat the following rules as fixed defaults whenever the user supplies only a co
 - Never reduce content density merely because the source research is sparse. Use well-grounded industry abstractions and state material assumptions in the final response.
 - Prefer deterministic HTML/SVG/slides composition and bitmap export when exact Chinese text, official icons, alignment, or repeatability matter. Do not let an image model redraw product icons or typeset the final architecture poster.
 
+## Mandatory Deterministic V2 Pipeline
+
+The bundled v2 pipeline is the default and required implementation. These rules override any later descriptive design guidance:
+
+- The model generates company research and `blueprint-data.json` only.
+- Do not invent, redesign, or regenerate the page geometry.
+- Do not write replacement HTML, CSS, SVG, React, canvas, or slide layouts.
+- Do not use an image-generation model to typeset the poster or recreate any product icon.
+- Use `assets/template/blueprint.html` without changing its geometry.
+- Use `assets/blueprint-schema.v2.json` as the authoritative content contract.
+- Use `assets/middle-column.v1.json` as static template data. The model must not generate or edit the middle column.
+- Use `assets/example-data.v2.json` as the exact structural example for company-specific JSON.
+
+Run the pipeline in this order:
+
+```bash
+node scripts/validate-data.mjs blueprint-data.json
+node scripts/render-html.mjs blueprint-data.json blueprint.html
+node scripts/validate-page.mjs blueprint.html
+node scripts/export-png.mjs blueprint.html blueprint-4k.png
+```
+
+`validate-page.mjs` and `export-png.mjs` require Playwright. If Playwright or an equivalent deterministic browser renderer is unavailable, stop and report the missing renderer. Never substitute an image-generation model.
+
+### Delivery Gate
+
+- Do not deliver an output when any validator fails.
+- Do not explain away, suppress, crop around, or visually hide a failed validation.
+- Fix the data or template implementation, rerun the complete validation sequence, and deliver only after every check passes.
+- The required passing counts are exactly 75 left capabilities, 3 middle groups, 21 middle modules, and 5 endpoints.
+- Required geometry is a 1920×1080 logical viewport with no scroll overflow, no clipped required element, no missing image, and no title/tag/logo collision.
+- Export at `deviceScaleFactor: 2` to create a true 3840×2160 PNG. Do not build the layout directly at 3840×2160.
+
 ## Default Dark Theme
 
 The default visual theme is the blue-black specification in `assets/dark-theme.v1.json`. Read it before composing or rendering.
@@ -131,14 +164,14 @@ Keep each tag's color consistent across the entire image.
 
 Create 4 horizontal business layers for the left-side application matrix. Design each layer as grouped business domains, not a flat list of applications.
 
-1. `01 战略决策层`: use exactly 2 major planning blocks, normally `核心决策` and `[企业简称]数据中心`; each block contains 5 decision or data capabilities by default.
-2. `02 经营管理层`: use exactly 4 balanced management domain panels such as `协同办公与组织`, `企业资源管理`, `人才运营`, `经营分析与预警`; each panel contains 5 capabilities by default.
-3. `03 业务协同层`: use 5 value-chain domain panels by default, one for each tag; use 4-6 only when the real business model clearly requires it. Each panel contains 5 concrete capabilities or process nodes by default.
-4. `04 一线与执行层`: use 4 balanced frontline scenario panels by default; use 4-5 when required by the business. Each panel contains 4-6 operational actions or records.
+1. `01 战略决策层`: use exactly 2 major planning blocks; each block contains exactly 5 capabilities.
+2. `02 经营管理层`: use exactly 4 balanced management domain panels; each panel contains exactly 5 capabilities.
+3. `03 业务协同层`: use exactly 5 value-chain domain panels; each panel contains exactly 5 capabilities.
+4. `04 一线与执行层`: use exactly 4 frontline scenario panels; each panel contains exactly 5 operational actions.
 
 Density and balance rules:
 
-- Target 70-80 total left-side capability chips, normally 75. Do not exceed 85 unless the user explicitly prefers density over readability; never deliver fewer than 60 without explaining why the company genuinely lacks additional business scope.
+- Generate exactly 75 left-side capability chips. Do not add or remove items to solve a layout problem; rewrite overlong labels instead.
 - Prioritize legibility over maximum module count. At the 1920×1080 logical canvas, left-side capability labels must be at least 14 px with medium or semibold weight, panel headers at least 16 px, and semantic icons at least 16 px. Never shrink capability text below 14 px to fit more modules.
 - Fill each domain panel vertically. Avoid a large empty lower half inside any panel.
 - Keep sibling panels equal height and visually balanced.
@@ -169,7 +202,7 @@ Domain panel structure:
 
 ### 4. Image Composition
 
-Use the image generation tool to create the final bitmap image. Do not output React, JSX, canvas code, HTML, SVG, or a prompt-only answer unless the user explicitly asks for code or prompt text.
+Use the bundled deterministic template and scripts to create the final bitmap image. The descriptive rules below define the locked template's intended appearance; they do not authorize a model to create a new layout.
 
 Generate a professional Chinese enterprise architecture poster with these constraints:
 
@@ -229,7 +262,7 @@ Visual detail rules:
 
 ## Image Prompt Pattern
 
-When calling the image generation tool, provide a single consolidated prompt that includes:
+This section is a content-planning aid only. Do not send the final architecture poster to an image-generation model. Use it to plan `blueprint-data.json`, then run the deterministic v2 pipeline.
 
 - company and industry summary
 - exact title only; explicitly forbid subtitles and slogans
@@ -271,7 +304,7 @@ Validate the whole poster:
 
 - Logical canvas is exactly 1920×1080 with no horizontal or vertical overflow; final PNG metadata is exactly 3840×2160.
 - The four left layers show `01-04` in order.
-- The left matrix contains 60-85 non-duplicative capability chips, preferably 70-80, with 75 as the default.
+- The left matrix contains exactly 75 non-duplicative capability chips.
 - Left capability labels are at least 14 px on the logical canvas, use medium or semibold weight, and remain readable at 100% zoom.
 - Every left capability chip has one semantic line icon.
 - Strategy has 2 panels; management has 4; business collaboration normally has 5; frontline normally has 4.
